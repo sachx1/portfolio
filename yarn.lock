@@ -9366,6 +9366,11 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-17.0.1.tgz"
   "version" "17.0.1"
 
+"react-mailto@^0.4.0":
+  "integrity" "sha1-IinLYPyjVSJz+C5N6WyD8tEsDV8="
+  "resolved" "https://registry.npmjs.org/react-mailto/-/react-mailto-0.4.0.tgz"
+  "version" "0.4.0"
+
 "react-popper@2.2.4":
   "integrity" "sha512-NacOu4zWupdQjVXq02XpTD3yFPSfg5a7fex0wa3uGKVkFK7UN6LvVxgcb+xYr56UCuWiNPMH20tntdVdJRwYew=="
   "resolved" "https://registry.npmjs.org/react-popper/-/react-popper-2.2.4.tgz"

@@ -20,6 +20,7 @@ function Projects() {
                 body="Throughout my University career, I had to build many interactive experiences and games inside Unity and Unreal Engine. These are my most notable works. "
                 />
             </Link>
+
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { BlinkingCursorTextBuilder } from 'react-animated-text-builders';
 import * as FaIcons from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Home() {
     return (
