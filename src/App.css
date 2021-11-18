@@ -25,6 +25,8 @@
 	}
 }
 
+
+
 .home, .projects, .workexp, .aboutme, .skills{
   display: flex;
   height: 90vh;
@@ -32,6 +34,11 @@
   justify-content: center;
   font-size: 3rem;
 }
+
+.projectsTwo{ 
+  display: flex; 
+  justify-content: center;}
+
 
 .underline {
   width: 6rem;
@@ -41,9 +48,15 @@
   margin-right: auto;
 }
 
+.firstSentence {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+}
+
 .homeText {
   display: flex;
-  height: 25vh;
+  height: 30vh;
   width: 100%;
   justify-content: center;
   font-size: 3rem;
@@ -87,4 +100,5 @@
 body{
   background-color: #6082B6;
 }
+
 

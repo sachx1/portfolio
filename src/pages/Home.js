@@ -5,8 +5,9 @@ import * as FaIcons from "react-icons/fa";
 function Home() {
     return (
         <main>
+
             <div className='homeText'>
-                <p>Hi, my name is <br></br>
+                <p>Hi, my name is<br></br>
                 <h3>Sachin Khargie</h3> 
                 <h5>I'm a developer who builds things for both the web</h5>
                 <h5>and for devices.</h5>
