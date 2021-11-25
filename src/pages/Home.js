@@ -2,10 +2,16 @@ import React, { Component } from 'react'
 import { BlinkingCursorTextBuilder } from 'react-animated-text-builders';
 import * as FaIcons from "react-icons/fa";
 import { Link } from "react-router-dom";
+import ReactRoundedImage from "react-rounded-image";
+import MyPhoto from "./images/me.jpg";
 
 function Home() {
     return (
         <main>
+
+            <div className='roundImg'>
+                <ReactRoundedImage image={MyPhoto} />
+            </div>
 
             <div className='homeText'>
                 <p>Hi, my name is<br></br>
@@ -16,6 +22,25 @@ function Home() {
             </div>
             
             <div className='underline'></div>
+
+            <div className='homeTextTwo'>
+                <div className='york'>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Logo_York_University.svg/1200px-Logo_York_University.svg.png" alt='York Emblem' />
+                </div>      
+            </div>
+
+            <div className='homeTextThree'>
+                <p>Graduated from York University on April 2021 <br></br>
+                <p>with honors in Digital Media (Software and Game Development)</p> </p> 
+            </div>
+
+            <div className='underline' />
+
+            <div className='homeTextTwo'>
+                <div className='uhn'>
+                    <img src="https://apil.ca/wp-content/uploads/2021/09/UHNF-Hosp-webheader-1.png" alt='UHN Emblem' />
+                </div>
+             </div>   
 
             <div className='homeTextTwo'>
                 <p>Currently working at Toronto General Hospital<br></br>

@@ -25,6 +25,7 @@
 
 .nav-menu.active{
     left: 0;
+    position: fixed;
     transition: 350ms;
 }
 

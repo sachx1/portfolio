@@ -13,7 +13,7 @@ export const SidebarData = [
     }, 
 
     {
-        title: 'Work Experience', 
+        title: 'Work Experience & Skills', 
         path: '/workexp', 
         icon: <FaIcons.FaClipboardList />, 
         cName: 'nav-text', //cName is short for className
@@ -26,17 +26,17 @@ export const SidebarData = [
         cName: 'nav-text', //cName is short for className
     }, 
 
-    {
-        title: 'Skills', 
-        path: '/skills', 
-        icon: <FaIcons.FaDatabase />, 
-        cName: 'nav-text', //cName is short for className
-    }, 
+    // {
+    //     title: 'Skills', 
+    //     path: '/skills', 
+    //     icon: <FaIcons.FaDatabase />, 
+    //     cName: 'nav-text', //cName is short for className
+    // }, 
 
-    {
-        title: 'About Me', 
-        path: '/aboutme', 
-        icon: <AiIcons.AiOutlineQuestion />, 
-        cName: 'nav-text', //cName is short for className
-    },
+    // {
+    //     title: 'About Me', 
+    //     path: '/aboutme', 
+    //     icon: <AiIcons.AiOutlineQuestion />, 
+    //     cName: 'nav-text', //cName is short for className
+    // },
 ]
