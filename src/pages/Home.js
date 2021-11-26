@@ -44,7 +44,7 @@ function Home() {
 
             <div className='homeTextTwo'>
                 <p>Currently working at Toronto General Hospital<br></br>
-                <p>as both a game and web developer.</p>
+                <p>as both a Game and Web Developer.</p>
                 </p>
             </div>
 
