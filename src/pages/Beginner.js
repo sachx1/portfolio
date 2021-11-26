@@ -2,7 +2,6 @@ import React from 'react'
 import * as FaIcons from "react-icons/fa";
 import Card from './Card';
 import { Link } from 'react-router-dom';
-import Tour from "./images/tourism.jpg";
 
 function Beginner() {
     return (
