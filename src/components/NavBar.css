@@ -17,6 +17,7 @@
     height: 100vh;
     display: flex;
     justify-content: center;
+    overflow: visible;
     position: fixed;
     top: 0;
     left: -100%;
@@ -26,6 +27,7 @@
 .nav-menu.active{
     left: 0;
     position: fixed;
+    overflow: hidden;
     transition: 350ms;
 }
 

@@ -82,6 +82,16 @@
   margin-right: auto;
 }
 
+.underlineTwo {
+  width: 6rem;
+  height: 0.25rem;
+  margin-bottom: 3rem;
+  background: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .firstSentence {
   display: flex;
   justify-content: center;
@@ -157,7 +167,6 @@
   background-color: transparent;
   background-repeat: no-repeat;
   margin-left: -10rem;
-  position: fixed;
   border: none;
   cursor: pointer;
   overflow: hidden;
@@ -186,12 +195,66 @@ body{
   transform: scale(0.2, 0.2);
 }
 
+.displayLeft{
+  display: flex;
+  margin-left: 5rem;
+  margin-bottom: 3rem;
+}
+
+.displayRight{
+  display: flex;
+  /* margin-right: 5rem;
+  margin-bottom: 3rem; */
+  margin-left: 45rem;
+  margin-right: 5rem;
+  align-content: flex-end;
+  margin-bottom: 3rem;
+}
+
+.textRight{
+  display: flex;
+  margin-left: 5rem;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  /* margin-bottom: 35rem; */
+}
+
+.textLeft{
+  display: flex;
+  text-align: left;
+  margin-right: 3rem;
+  font-size: 2rem;
+}
+
+.tourismText{
+  display: flex;
+  margin: auto;  
+}
+
 .uhn{
   height: auto; 
   width: auto; 
   margin-bottom: -3rem;
   background-color: transparent;
   transform: scale(1, 1);
+}
+
+.block{
+  display: flex;
+  margin: auto;
+  margin-bottom: 3rem;
+  width: 70%;
+  height: 70%;
+  padding: auto;
+  border: none;
+  background-color: #2c61b1;
+  justify-content: center;
+  align-items: center;
+}
+
+.blockText{
+  color: white;
+  text-align: center;
 }
 
 
