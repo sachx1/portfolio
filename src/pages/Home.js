@@ -31,7 +31,7 @@ function Home() {
 
             <div className='homeTextThree'>
                 <p>Graduated from York University on April 2021 <br></br>
-                <p>with honors in Digital Media (Software and Game Development)</p> </p> 
+                <p>with Honors in Digital Media (Software and Game Development)</p> </p> 
             </div>
 
             <div className='underline' />
