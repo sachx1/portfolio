@@ -54,6 +54,12 @@ function Home() {
                 <a href="https://www.linkedin.com/in/sachin-khargie-17a248163/"><h3 className='spacedOut'>LinkedIn</h3></a>
                 <a href="https://github.com/sachx1"><h3 className='spacedOut'>Github</h3></a>
             </div>
+
+            <div className='underline'></div>
+
+            <div className='smallText'>
+                <p>Built and Designed in ReactJS by Sachin Khargie</p>
+            </div>
         </main>
     );
 }
