@@ -1,45 +1,64 @@
-import React, { Component } from 'react';
-//import Card from 'react-bootstrap/Card';
-// import Tab from 'react-bootstrap/Tab';
-// import Tabs from 'react-bootstrap/Tabs';
-// import TabContainer from 'react-bootstrap/TabContainer';
-// import Nav from 'react-bootstrap/Nav';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-import WorkCard from './WorkCards/WorkCard';
-import { Link } from 'react-router-dom';
+import React, { Component, useState } from 'react';
+import Exp from './data/workData'
+import { FaChevronLeft, FaChevronRight, FaLocationArrow, FaMapMarkerAlt } from 'react-icons/fa';
 
-function WorkExperience() {
-    return (
-        <>
-        <div className='beginner'>
-            <h3>Work Experience</h3>
-        </div>
+    const WorkExperience = () => {
+        const [index, setIndex] = useState(0); 
+        const {title, company, location, date, text, textTwo, textThree, textFour, textFive, image} = Exp[index];
 
-        <div className='underlineTwo'></div>
-        
-        <div className='projectsTwo'>
-            <WorkCard 
-                title="Toronto General Hospital - Web/Game Dev"
-                imageUrl="https://wallpaperaccess.com/full/3909258.jpg"
-                body="• Using ES6 JavaScript to create 3D WebGL Viewers hosted on Firebase. " 
-                body2= "• Use of routers, to direct the user to different pages."
-                body3="• Created pages via components and views."
-            />
-        </div>
+        const checkNumber = (number) => {
+            if (number > Exp.length - 1){
+                return 0;
+            }
 
-        <div className='projectsTwo'>
-            <WorkCard 
-                title="York University - Game Dev and Tester"
-                imageUrl="https://wallpaperaccess.com/full/3909258.jpg"
-                body="• Tested and developed an AR App on both iOS and Android."
-                body2="• Using different pipelines to create “AR Windows” to view objects within the space."
-                body3="• Used C# to write scripts for the features, such as AR Portals, creating dynamic animations and for spawning objects."
-            />
-        </div>
-        </>
-    );
-}
+            if (number < 0){
+                return Exp.length - 1;
+            }
+            return number;
+        }
+
+        const nextPerson = () => {
+            setIndex((index) => {
+                let newIndex = index + 1;
+                return checkNumber(newIndex);
+            });
+        }
+
+        const prevPerson = () => {
+            setIndex((index) => {
+                let newIndex = index - 1;
+                return checkNumber(newIndex);
+            });
+        }
+
+        return (
+            <>
+                <article className='experience'>
+                    {/* <div className="img-container">
+                        <img src={image} alt={title} />
+                    </div> */}
+                    <h4 className='titleTwo'>{title}</h4>
+                    <p className='company'>{company}</p>
+                    <p className='company'><FaLocationArrow /> {date}</p>
+                    <p className='company'><FaMapMarkerAlt /> {location}</p>
+                    <p className='info'>{text}</p>
+                    <p className='info'>{textTwo}</p>
+                    <p className='info'>{textThree}</p>
+                    <p className='info'>{textFour}</p>
+                    <p className='info'>{textFive}</p>
+                    <div className="button-container">
+                        <button className="prev-btn" onClick={prevPerson}>
+                            <FaChevronLeft />
+                        </button>
+                        <button className="next-btn" onClick={nextPerson}>
+                            <FaChevronRight />
+                        </button>
+                    </div>
+                </article>
+            </>
+        );
+    }
+
 
 
 

@@ -1,5 +1,6 @@
-import './App.css';
-import NavBar from './components/NavBar';
+import './components/App.scss';
+//import NavBar from './components/NavBar';
+import Menu from './components/Menu';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; //Switch uses npm install react-router-dom@5.2.0 anything above that this line wont work
 import Home from './pages/Home';
 import Projects from './pages/Projects';
@@ -9,11 +10,12 @@ import AboutMe from './pages/AboutMe';
 import Beginner from './pages/Beginner';
 import Escape from './pages/Escape';
 
+
 function App() {
   return (
     <>
       <Router>
-        <NavBar />
+        <Menu />
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/projects'  exact component={Projects} />

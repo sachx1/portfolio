@@ -1,65 +1,69 @@
-import React, { Component } from 'react'
-import { BlinkingCursorTextBuilder } from 'react-animated-text-builders';
+import React, { Component, useState, useEffect } from 'react'
 import * as FaIcons from "react-icons/fa";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { render } from 'react-dom'
 import ReactRoundedImage from "react-rounded-image";
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import MyPhoto from "./images/me.jpg";
+import Card from 'react-bootstrap/Card'
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
+import Typist from 'react-typist'
+import Work from './WorkExperience'
 
 function Home() {
+    const name = "Sachin Khargie";
+
+    const [count, setCount] = useState(1);
+
+    useEffect(() => {
+        console.log("Count: " + count);
+        setCount(1);
+    }, [count]);
+
     return (
         <main>
+            <div className='containerHome'>
+    
+                    <Card>
+                    <Card.ImgOverlay>
+                        <Card.Text>
+                        <ReactRoundedImage image={MyPhoto} imageWidth="300" imageHeight="300" roundedSize="13" />
+                        </Card.Text>
+                    </Card.ImgOverlay>
+                    </Card>
 
-            <div className='roundImg'>
-                <ReactRoundedImage image={MyPhoto} />
             </div>
 
-            <div className='homeText'>
-                <p>Hi, my name is<br></br>
-                <h3>Sachin Khargie</h3> 
-                <h5>I'm a developer who builds things for both the web</h5>
-                <h5>and for devices.</h5>
-                </p>
-            </div>
-            
-            <div className='underline'></div>
-
-            <div className='homeTextTwo'>
-                <div className='york'>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Logo_York_University.svg/1200px-Logo_York_University.svg.png" alt='York Emblem' />
-                </div>      
+            <div className='containerHomeName'>
+                <p>Hi, my name is</p>
             </div>
 
-            <div className='homeTextThree'>
-                <p>Graduated from York University on April 2021 <br></br>
-                <p>with Honors in Digital Media (Software and Game Development)</p> </p> 
+            <div className='containerHomeNameTwo'>
+                <Typist><Typist.Delay ms={1000} />Sachin Khargie</Typist>
+                
             </div>
 
-            <div className='underline' />
+            <div className='containerHomeNameTwo'>
+                <p>I build things {count ? (
+                <Typist loop="true" avgTypingDelay={100} onTypingDone={() => setCount(0)}><Typist.Delay ms={2000} />with <span className='nodeJS'> Node.js</span>
+                <Typist.Backspace count={13} delay={750} />using <span className='google'>Google Firebase</span>
+                <Typist.Backspace count={21} delay={1000} />for <span className='cSharp'>Unity using C#</span>
+                <Typist.Backspace count={18} delay={1000} /></Typist> //dummy line to allow for looping
+                ) : (
+                    ""
+                )}</p>
 
-            <div className='homeTextTwo'>
-                <div className='uhn'>
-                    <img src="https://apil.ca/wp-content/uploads/2021/09/UHNF-Hosp-webheader-1.png" alt='UHN Emblem' />
-                </div>
-             </div>   
-
-            <div className='homeTextTwo'>
-                <p>Currently working at Toronto General Hospital<br></br>
-                <p>as both a Game and Web Developer.</p>
-                </p>
             </div>
 
-            <div className='underline'></div>
+           <div className="container">
+               <div className="title">
+                   <h2>Experience</h2>
+                   <div className="underline" />
+               </div>
+               <Work />
+           </div>
 
-            <div className='homeTextTwo'>
-                <a href="https://www.linkedin.com/in/sachin-khargie-17a248163/"><h3 className='spacedOut'>LinkedIn</h3></a>
-                <a href="https://github.com/sachx1"><h3 className='spacedOut'>Github</h3></a>
-            </div>
-
-            <div className='underline'></div>
-
-            <div className='smallText'>
-                <p>Built and Designed in ReactJS by Sachin Khargie</p>
-            </div>
         </main>
     );
 }
