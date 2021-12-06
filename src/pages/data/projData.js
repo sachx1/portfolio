@@ -1,10 +1,4 @@
-import React, { useState } from 'react'
-import Card from './Card';
-import { Link } from 'react-router-dom';
-import { FaGithub } from 'react-icons/fa';
-import Proj from './data/projData'
-
-const Projects = () => {
+const Data = () => {
     const proj = [
         {
             id: 0,
@@ -33,26 +27,7 @@ const Projects = () => {
             github: "https://github.com/sachx1/portfolio"
         },
     ];
-
-    return (
-        <>
-            {proj.map((project) => (
-                <article className="single-project">
-                    <img src={project.img} alt="title" />
-                    <footer>
-                        <div className="project-info">
-                            <h4>{project.title}</h4>
-                            <h4 className="project-skills">{project.skills}</h4>
-                        </div>
-                        <div className="project-desc">
-                            <p>{project.description}</p>
-                        </div>
-                        <button className="link-btn"> Github Link </button>
-                    </footer>
-                </article>
-            ))}
-        </>
-    )
 }
 
-export default Projects
+
+export default Data

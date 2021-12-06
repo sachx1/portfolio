@@ -3,16 +3,17 @@ import * as FaIcons from "react-icons/fa";
 // import { Link } from "react-router-dom";
 import { render } from 'react-dom'
 import ReactRoundedImage from "react-rounded-image";
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+// import * as Scroll from 'react-scroll';
+// import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import MyPhoto from "./images/me.jpg";
 import Card from 'react-bootstrap/Card'
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 import Typist from 'react-typist'
 import Work from './WorkExperience'
+import Project from './Projects'
 
 function Home() {
-    const name = "Sachin Khargie";
 
     const [count, setCount] = useState(1);
 
@@ -56,13 +57,7 @@ function Home() {
 
             </div>
 
-           <div className="container">
-               <div className="title">
-                   <h2>Experience</h2>
-                   <div className="underline" />
-               </div>
-               <Work />
-           </div>
+           
 
         </main>
     );

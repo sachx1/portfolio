@@ -9,23 +9,47 @@ import WorkExperience from './pages/WorkExperience';
 import AboutMe from './pages/AboutMe';
 import Beginner from './pages/Beginner';
 import Escape from './pages/Escape';
+import * as Scroll from 'react-scroll';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import React from 'react';
+import Work from './pages/WorkExperience'
+import Project from './pages/Projects'
+
 
 
 function App() {
+
+  let Link      = Scroll.Link;
+  let Button    = Scroll.Button;
+  let Element   = Scroll.Element;
+  let Events    = Scroll.Events;
+  let scroll    = Scroll.animateScroll;
+  let scrollSpy = Scroll.scrollSpy;
+
+  
   return (
     <>
-      <Router>
-        <Menu />
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/projects'  exact component={Projects} />
-          <Route path='/skills' exact component={Skills} />
-          <Route path='/workexp' exact component={WorkExperience} />
-          <Route path='/aboutme' exact component={AboutMe} />
-          <Route path='/beginner' exact component={Beginner} />
-          <Route path='/escape' exact component={Escape} />
-        </Switch>
-      </Router>
+      
+      <Menu />  
+      <div id="home">
+        <Home />
+      </div>
+
+      <div className="container">
+               <div className="title">
+                   <h2>Experience</h2>
+               </div>
+            <div id="work">
+               <Work />
+            </div>
+      </div>
+
+      <div className="title">
+        <h3>Projects</h3>
+      </div>
+      <div className="containerProj">
+        <Project />
+      </div>
       
     </>
   );

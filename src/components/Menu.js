@@ -11,8 +11,8 @@ function Menu() {
         <div className='navigation'>
             
             <a href="#">Home</a>
-            <a href="#">Experience</a>
-            <a href="#">Skills</a>
+            <a href="#" onClick={() => window.location.replace("/#work")}>Experience</a>
+            <a href="#">Projects</a>
             <a href="#">About Me</a>
             <a href="#">Contact</a>
             <a href="#">Resume</a>
