@@ -44,7 +44,7 @@ function App() {
       </div>
 
       <div className="title">
-        <h3>Projects</h3>
+        <h2>Projects</h2>
       </div>
       <div className="containerProj">
         <Project />
