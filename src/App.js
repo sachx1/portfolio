@@ -49,6 +49,10 @@ function App() {
       <div className="containerProj">
         <Project />
       </div>
+
+      <div className="title">
+        <h2>About Me</h2>
+      </div>
     </>
   );
 }
