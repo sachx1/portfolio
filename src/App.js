@@ -25,23 +25,22 @@ function App() {
   let Events    = Scroll.Events;
   let scroll    = Scroll.animateScroll;
   let scrollSpy = Scroll.scrollSpy;
-
   
   return (
     <>
-      
       <Menu />  
       <div id="home">
         <Home />
       </div>
 
       <div className="container">
-               <div className="title">
-                   <h2>Experience</h2>
-               </div>
-            <div id="work">
-               <Work />
-            </div>
+        <div className="title">
+          <h2>Experience</h2>
+        </div>
+
+        <div id="work">
+          <Work />
+        </div>
       </div>
 
       <div className="title">
@@ -50,7 +49,6 @@ function App() {
       <div className="containerProj">
         <Project />
       </div>
-      
     </>
   );
 }
