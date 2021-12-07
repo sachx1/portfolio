@@ -1,9 +1,5 @@
 import React, { useState } from 'react'
-import Card from './Card';
-import { Link } from 'react-router-dom';
 import { FaGithub } from 'react-icons/fa';
-import Proj from './data/projData'
-import racer from "./images/projectD.png"
 
 const Projects = () => {
 
@@ -38,7 +34,7 @@ const Projects = () => {
         },
 
         {
-            id: 1,
+            id: 2,
             title: "Project D",
             skills: ["C++, Unreal Engine 4"],
             description: [
@@ -66,7 +62,7 @@ const Projects = () => {
                         <div className="project-desc">
                             <p>{project.description}</p>
                         </div>
-                        <button ></button>
+                        <button></button>
                     </footer>
                 </article>
             ))}

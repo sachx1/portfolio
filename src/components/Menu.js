@@ -13,7 +13,7 @@ function Menu() {
             <a href="#">Home</a>
             <a href="#" onClick={() => window.location.replace("/#work")}>Experience</a>
             <a href="#">Projects</a>
-            <a href="#">About Me</a>
+            <a href="#">Education</a>
             <a href="#">Contact</a>
             <a href="#">Resume</a>
            

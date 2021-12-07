@@ -1,19 +1,14 @@
 import './components/App.scss';
-//import NavBar from './components/NavBar';
 import Menu from './components/Menu';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; //Switch uses npm install react-router-dom@5.2.0 anything above that this line wont work
 import Home from './pages/Home';
-import Projects from './pages/Projects';
-import Skills from './pages/Skills';
-import WorkExperience from './pages/WorkExperience';
 import AboutMe from './pages/AboutMe';
-import Beginner from './pages/Beginner';
-import Escape from './pages/Escape';
 import * as Scroll from 'react-scroll';
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import React from 'react';
 import Work from './pages/WorkExperience'
 import Project from './pages/Projects'
+import Contact from './pages/Contact'
 
 
 
@@ -46,13 +41,26 @@ function App() {
       <div className="title">
         <h2>Projects</h2>
       </div>
+
       <div className="containerProj">
         <Project />
       </div>
 
       <div className="title">
-        <h2>About Me</h2>
+        <h2>Education</h2>
       </div>
+
+      <div className="containerEdu">
+        <AboutMe />
+      </div>
+
+      <div className="title">
+        <h2>Contact Me</h2>
+        
+      </div>
+
+      <Contact />
+      
     </>
   );
 }

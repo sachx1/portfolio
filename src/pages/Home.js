@@ -10,8 +10,7 @@ import Card from 'react-bootstrap/Card'
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 import Typist from 'react-typist'
-import Work from './WorkExperience'
-import Project from './Projects'
+
 
 function Home() {
 
