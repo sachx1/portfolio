@@ -1,10 +1,6 @@
 import React from 'react'
-import * as FaIcons from "react-icons/fa"; //saves time
-import * as AiIcons from "react-icons/ai"; //saves time
 import { Link } from 'react-scroll';
-import { SidebarData } from './SidebarData';
 import './Menu.scss';
-import { IconContext } from 'react-icons';
 
 function Menu() {
     return (

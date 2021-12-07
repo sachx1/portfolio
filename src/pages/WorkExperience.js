@@ -1,10 +1,10 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import Exp from './data/workData'
 import { FaChevronLeft, FaChevronRight, FaLocationArrow, FaMapMarkerAlt } from 'react-icons/fa';
 
     const WorkExperience = () => {
         const [index, setIndex] = useState(0); 
-        const {title, company, location, date, text, textTwo, textThree, textFour, textFive, image} = Exp[index];
+        const {title, company, location, date, text, textTwo, textThree, textFour, textFive} = Exp[index];
 
         const checkNumber = (number) => {
             if (number > Exp.length - 1){

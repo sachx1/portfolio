@@ -1,13 +1,7 @@
-import React, { Component, useState, useEffect } from 'react'
-import * as FaIcons from "react-icons/fa";
-// import { Link } from "react-router-dom";
-import { render } from 'react-dom'
+import React, { useState, useEffect } from 'react'
 import ReactRoundedImage from "react-rounded-image";
-// import * as Scroll from 'react-scroll';
-// import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import MyPhoto from "./images/me.jpg";
 import Card from 'react-bootstrap/Card'
-import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 import Typist from 'react-typist'
 

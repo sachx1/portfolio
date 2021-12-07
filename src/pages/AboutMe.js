@@ -1,7 +1,4 @@
-import React, { Component }from 'react'
-import * as FaIcons from "react-icons/fa"; //saves time
-
-
+import React from 'react'
 
 function AboutMe() {
     return (
