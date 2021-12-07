@@ -8,16 +8,19 @@ import { IconContext } from 'react-icons';
 
 function Menu() {
     return (
+        <>
+       
         <div className='navigation'>
-            
-            <a href="#">Home</a>
-            <a href="#" onClick={() => window.location.replace("/#work")}>Experience</a>
-            <a href="#">Projects</a>
-            <a href="#">Education</a>
-            <a href="#">Contact</a>
-            <a href="#">Resume</a>
-           
+                    <a href="#">Home</a>
+                    <a href="#" onClick={() => window.location.replace("/#work")}>Experience</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Education</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Resume</a>
+
         </div>
+            
+        </>
     )
 }
 

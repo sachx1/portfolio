@@ -9,6 +9,7 @@ import React from 'react';
 import Work from './pages/WorkExperience'
 import Project from './pages/Projects'
 import Contact from './pages/Contact'
+import Footer from './components/footer'
 
 
 
@@ -60,6 +61,8 @@ function App() {
       </div>
 
       <Contact />
+
+      <Footer />
       
     </>
   );

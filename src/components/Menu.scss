@@ -1,14 +1,19 @@
   .navigation {
     display: flex;
-    flex-flow: row wrap;
+    //flex-flow: row wrap;
     justify-content: center;
-
+    overflow: visible;
     list-style: none;
     margin: 0; 
     background: #353935;
-    position: relative;
+    //position: relative;
     margin-bottom: 5rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
+
+  
 
   .options{
     display: flex;
@@ -17,7 +22,7 @@
 
     list-style: none;
     margin: 0; 
-    background: #6082B6;
+    background: #353935;
     position: relative;
   }
 

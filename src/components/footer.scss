@@ -1,0 +1,24 @@
+.footer{
+    margin-top: 1rem;
+    padding: 0.1rem;
+    background-color: #36454F;
+    position: static;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+  }
+
+  .footerButton{
+      color: white;
+      background-color: transparent;
+      background-repeat: no-repeat;
+      border: none;
+      cursor: pointer;
+      overflow: hidden;
+      outline: none;
+      justify-content: space-between;
+      font-size: 1rem;
+  }
