@@ -29,7 +29,7 @@ function App() {
         <Home />
       </div>
 
-      <div className="container">
+      <div className="container" id="experience">
         <div className="title">
           <h2>Experience</h2>
         </div>
@@ -39,7 +39,7 @@ function App() {
         </div>
       </div>
 
-      <div className="title">
+      <div className="title" id="projects">
         <h2>Projects</h2>
       </div>
 
@@ -47,7 +47,7 @@ function App() {
         <Project />
       </div>
 
-      <div className="title">
+      <div className="title" id="education">
         <h2>Education</h2>
       </div>
 
@@ -55,7 +55,7 @@ function App() {
         <AboutMe />
       </div>
 
-      <div className="title">
+      <div className="title" id="contact">
         <h2>Contact Me</h2>
         
       </div>
