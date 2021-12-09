@@ -46,7 +46,7 @@ const Projects = () => {
     
             img: "https://wallpaperaccess.com/full/3645785.jpg", 
             logo: "<AiIcons.AiOutlineFilePdf />",
-            github: "https://github.com/sachx1/projects-api"
+            github: "https://drive.google.com/file/d/1YEsGj4cKtW9zya1TM7fm-k-tXPcGb7Jg/view?usp=sharing"
         },
     ];
 
