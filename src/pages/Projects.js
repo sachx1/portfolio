@@ -57,7 +57,7 @@ const Projects = () => {
                     <img src={project.img} alt="title" />
                     <footer>
                         <div className="project-info">
-                            <h4><a href={project.github}><FaGithub /></a> {project.title}</h4>
+                            <h4><a href={project.github} target="_blank" rel="noreferrer noopener"><FaGithub /></a> {project.title}</h4>
                             <h4 className="project-skills">{project.skills}</h4>
                         </div>
                         <div className="project-desc">
