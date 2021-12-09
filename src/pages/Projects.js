@@ -30,7 +30,8 @@ const Projects = () => {
             ],
     
             img: "https://answers.unity.com/storage/temp/95464-screenshot-2017-06-06-13-47-08.png", 
-            github: "https://github.com/sachx1/projects-api"
+            
+            github: "https://github.com/sachx1/Escape.exe"
         },
 
         {
@@ -44,7 +45,7 @@ const Projects = () => {
             ],
     
             img: "https://wallpaperaccess.com/full/3645785.jpg", 
-            //img: {racer},
+            logo: "<AiIcons.AiOutlineFilePdf />",
             github: "https://github.com/sachx1/projects-api"
         },
     ];
