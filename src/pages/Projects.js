@@ -41,7 +41,7 @@ const Projects = () => {
             description: [
                 "Project D was one of my last projects at York University. ",
                 "This project was a racer built in Unreal Engine. My group chose this engine for the graphic fidelity it provided. ", 
-                "Physics for the racer were manually done in C++. Menus and everything else were made in blueprints. Project D was built for Windows. "
+                "Physics for the racer were fine tuned in C++. Menus and everything else were made in blueprints. Project D was built for Windows. "
             ],
     
             img: "https://wallpaperaccess.com/full/3645785.jpg", 
