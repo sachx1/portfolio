@@ -1,5 +1,26 @@
 # Sachin Khargie's Portfolio
 
+In 2021, classic Resume's just don't cut it anymore. I decided to make this portfolio website to showcase my front end development skills, as well as my projects and work experience!  
+
+<h3> Built With </h3> 
+<ul> 
+  <li> React </li> 
+  <li> JavaScript </li> 
+  <li> Bootstrap for UI Components </li>
+  <li> Icons from Font Awesome </li>
+  <li> SASS for more responsive styling </li> 
+</ul>
+  
+<h3> Sources </h3> 
+ 
+When developing my website, I needed some visual concepts or designs I could work off from or take inspiration from. Below are some of my sources which I took inspiration from, as well as taking into consideration their design concepts. 
+  
+<ul>
+  <li> <a href="https://wahmed.dev/" rel="noopener noreferrer" target="_blank"> Waleed Ahmed </a> </li>
+  <li> <a href="https://ecnop.dev/#/main" rel="noopener noreferrer" target="_blank"> Jose Mari Ponce </a> </li>
+  <li> <a href="https://kaitlinmctigue.github.io/#/" rel="noopener noreferrer" target="_blank"> Katie McTigue </a> </li>
+</ul>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
