@@ -17,14 +17,14 @@ import { FaChevronLeft, FaChevronRight, FaLocationArrow, FaMapMarkerAlt } from '
             return number;
         }
 
-        const nextPerson = () => {
+        const next = () => {
             setIndex((index) => {
                 let newIndex = index + 1;
                 return checkNumber(newIndex);
             });
         }
 
-        const prevPerson = () => {
+        const prev = () => {
             setIndex((index) => {
                 let newIndex = index - 1;
                 return checkNumber(newIndex);
@@ -47,10 +47,10 @@ import { FaChevronLeft, FaChevronRight, FaLocationArrow, FaMapMarkerAlt } from '
                     <p className='info'>{textFour}</p>
                     <p className='info'>{textFive}</p>
                     <div className="button-container">
-                        <button className="prev-btn" onClick={prevPerson}>
+                        <button className="prev-btn" onClick={prev}>
                             <FaChevronLeft />
                         </button>
-                        <button className="next-btn" onClick={nextPerson}>
+                        <button className="next-btn" onClick={next}>
                             <FaChevronRight />
                         </button>
                     </div>
