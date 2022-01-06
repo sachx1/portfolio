@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Exp from './data/workData'
+import Exp from './data/workData';
 import { FaChevronLeft, FaChevronRight, FaLocationArrow, FaMapMarkerAlt } from 'react-icons/fa';
 
     const WorkExperience = () => {
