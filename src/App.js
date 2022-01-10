@@ -1,15 +1,15 @@
+import React from 'react';
 import './components/App.scss';
 import Menu from './components/Menu';
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
-import React from 'react';
 import Work from './pages/WorkExperience'
 import Project from './pages/Projects'
 import Contact from './pages/Contact'
 import Footer from './components/footer'
 
 function App() {
-  
+
   return (
     <>
       <Menu />  
