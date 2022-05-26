@@ -1,5 +1,16 @@
 const workExp = [
     {
+      title: 'Front-End Engineer', 
+      company: 'Chelsea Avondale', 
+      location: 'Kitchener, ON', 
+      date: 'April 2022 - Present', 
+      text: '• Developing reusable components with HTML, CSS and Javascript for use across large-scale enterprise systems',
+      textTwo: '• Working directly with the CEO on how to improve front end functionality',
+      textThree: '• Porting over legacy components and systems over to React',
+      textFour: '• Utilized flask to host web servers for our front-end systems.',
+      textFive: '• Participated in the hiring process for new developers',
+    },
+    {
       title: 'Lead Web Developer',
       company: 'Toronto General Hospital - Advanced Perioperative Imaging Lab',
       location: 'Toronto, ON',

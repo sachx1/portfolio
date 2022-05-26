@@ -8,8 +8,10 @@ import Typist from 'react-typist'
 
 function Home() {
 
+    //counter for the typist animation
     const [count, setCount] = useState(1);
 
+    //initiates the counter
     useEffect(() => {
         console.log("Count: " + count);
         setCount(1);
@@ -18,7 +20,6 @@ function Home() {
     return (
         <main>
             <div className='containerHome'>
-    
                     <Card>
                     <Card.ImgOverlay>
                         <Card.Text>
