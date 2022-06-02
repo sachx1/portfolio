@@ -8,7 +8,6 @@ const workExp = [
       textTwo: '• Working directly with the CEO on how to improve front end functionality',
       textThree: '• Porting over legacy components and systems over to React',
       textFour: '• Utilized flask to host web servers for our front-end systems.',
-      textFive: '• Participated in the hiring process for new developers',
     },
     {
       title: 'Lead Web Developer',
