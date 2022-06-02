@@ -12,7 +12,7 @@ function Menu() {
                     <Link to="projects" smooth={true} duration={2000}>Projects</Link>
                     <Link to="education" smooth={true} duration={2000}>Education</Link>
                     <Link to="contact" smooth={true} duration={2000}>Contact</Link>
-                    <a href="https://drive.google.com/file/d/1l-Yj96ExTMjewggpYsMVBat703wvLuzx/view?usp=sharing" target="_blank" rel="noreferrer noopener">Resume</a>
+                    <a href="https://drive.google.com/file/d/1-XEWuCEgTrcq0wGZOZQMWfkXJMPdWFiR/view?usp=sharing" target="_blank" rel="noreferrer noopener">Resume</a>
 
         </div>
             
